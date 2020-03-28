@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create QuizCards App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -20,7 +20,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ### `npm run build`
 
 Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+It correctly bundles QuizCards in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
@@ -39,9 +39,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more in the [Create QuizCards App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To learn QuizCards, check out the [QuizCards documentation](https://reactjs.org/).
 
 ### Code Splitting
 
