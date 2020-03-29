@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {Burger} from "../Burger/Burger";
 import {NavLink, BrowserRouter} from 'react-router-dom';
 import '../Header/style.css';
+import Back from "./GoBack/GoBack";
 
 export const Hdr = () => {
 
@@ -13,6 +14,7 @@ export const Hdr = () => {
           <div className={"header__body"}>
             <div className={"header__logo"}>
             </div>
+            <Back/>
             <div className={ showBurger ? `header__burger active` : "header__burger"}>
 
               <Burger burgerMenu={()=> setShowBurger( (prevState => !prevState))}/>

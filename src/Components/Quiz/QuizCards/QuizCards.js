@@ -1,5 +1,4 @@
 import React from "react";
-import {QuizCard} from '../Components/QuizCard/QuizCard'
 import {NavLink, useHistory, useParams} from "react-router-dom";
 
 const QuizCards = () => {

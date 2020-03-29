@@ -5,7 +5,7 @@ import { useHistory } from "react-router-dom";
 export const MainCards = () => {
   let history = useHistory();
   console.log(history);
-  const languages = ['React', 'JavaScript', 'HTML', 'CSS'];
+  const languages = ['React', 'JavaScript', 'HTML'];
 
   return (
       <section className="card">

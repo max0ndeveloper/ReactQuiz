@@ -3,12 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="5542855d-ab62-4382-8df7-51a18c1aef10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/MainCard/MainCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Card/MainCard/MainCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/MainCards/MainCards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Card/MainCards/MainCards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/QuizCard/QuizCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Quiz/QuizCard/QuizCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Links/firstQuiz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuizCards/QuizCards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Quiz/QuizCards/QuizCards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +44,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Develop\React\quiz_react\src\Components\MainCards" />
-      <recent name="D:\Develop\React\quiz_react\src\ReactCard" />
-      <recent name="D:\Develop\React\quiz_react\src\Components\ReactFirstQuiz" />
-      <recent name="D:\Develop\React\quiz_react\src\Links" />
-      <recent name="D:\Develop\React\quiz_react\src\Components\QuizMain" />
+      <recent name="D:\Develop\React\quiz_react\src\Components\Card" />
+      <recent name="D:\Develop\React\quiz_react\src\Components" />
+      <recent name="D:\Develop\React\quiz_react\src\Card" />
+      <recent name="D:\Develop\React\quiz_react\src\Components\Quiz" />
+      <recent name="D:\Develop\React\quiz_react\src\Components\Header" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -90,7 +94,11 @@
       <workItem from="1585223818471" duration="1876000" />
       <workItem from="1585228306698" duration="14000" />
       <workItem from="1585332589611" duration="3032000" />
-      <workItem from="1585397419537" duration="4982000" />
+      <workItem from="1585397419537" duration="5909000" />
+      <workItem from="1585410816328" duration="276000" />
+      <workItem from="1585412115852" duration="277000" />
+      <workItem from="1585477424361" duration="1396000" />
+      <workItem from="1585478835238" duration="6271000" />
     </task>
     <servers />
   </component>
@@ -110,6 +118,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584616010200" />
+    <state width="1877" height="253" key="GridCell.Tab.0.bottom" timestamp="1585480716373">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585480716373" />
+    <state width="1877" height="253" key="GridCell.Tab.0.center" timestamp="1585480716373">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="253" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585480716373" />
+    <state width="1877" height="253" key="GridCell.Tab.0.left" timestamp="1585480716373">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="253" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585480716373" />
+    <state width="1877" height="253" key="GridCell.Tab.0.right" timestamp="1585480716373">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="253" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585480716373" />
+    <state x="715" y="365" key="cloudConfig.SelfSettingsDialog" timestamp="1585478871658">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="715" y="365" key="cloudConfig.SelfSettingsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585478871658" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1585226624226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
