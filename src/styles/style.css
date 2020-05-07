@@ -213,6 +213,18 @@ html, body {
   margin-left: 20px;
 }
 
+.quizQuestion {
+  font-size: 2rem;
+}
+
+div.quizQuestion:nth-child(0n+1) {
+  border: 1px solid #fff;
+}
+
+.quizAnswer {
+  font-size: 1.5rem;
+}
+
 
 
 

@@ -5,6 +5,7 @@ import {Hdr} from "./Components/Header/Header";
 import {MainCards} from "./Components/Card/MainCards/MainCards";
 import QuizCards from "./Components/Quiz/QuizCards/QuizCards";
 import QuizCard from "./Components/Quiz/QuizCard/QuizCard";
+import Quiz from "./Components/Quiz/Quiz";
 
 
 
@@ -16,7 +17,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={MainCards}/>
         <Route path="/:id" exact component={QuizCards}/>
-        <Route path="/:id/:quiznum"  component={QuizCard}/>
+        <Route path="/:id/:quiznum"  component={Quiz}/>
       </Switch>
       </BrowserRouter>
     </div>
