@@ -1,5 +1,6 @@
 import React from "react";
 import { useHistory, useLocation } from "react-router-dom";
+import './GoBack.css'
 
 function Back() {
   let location = useLocation();
@@ -20,7 +21,9 @@ function Back() {
 
 
   return(
-      <button onClick={goBackHandle}>Go back</button>
+      <button className="button" onClick={goBackHandle}>
+        <div>Go back</div>
+      </button>
   )
 
 
